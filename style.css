@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    width: 100%;
+    background-image: url(./img/retouch_2024091900140833.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-image: fill 0 linear-gradient(#0001,#000);
+
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+nav h1{
+    color: white;
+    font-size: xxx-large;
+}
+
+.nav-link ul {
+    display: flex;
+    list-style-type: none;
+    font-size: x-large;
+
+}
+.main-page{
+    padding: 5%;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: white;
+    margin: 14px;
+
+}
+
+.nav-link li a:hover{
+    color: red;
+    
+
+}
+
+
+.row{
+    display: flex;
+
+}
+
+.colom-1{
+    flex-basis: 40%;
+    font-size: xxx-large;
+    color: white;
+
+
+}
+.colom-1{
+    margin-top: 100px;
+
+}
+
+.colom-2{
+width: 600px;
+
+}
+img{
+    border-radius: 50%;
+    width: 800px;
+    position: absolute;
+    right: 150%;
+    bottom: 24%;
+
+}
+
+footer{
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    font-style: inherit;
+}
+
+.foterline{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: -15%;
+    left: -4%;
+
+}
+
+.socialmedia i{
+    font-size: 20px;
+    width: 55px;
+    color: aliceblue;
+
+}
+
+.socialmedia i:hover{
+    color: maroon;
+ 
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+}
+
+.contact h1{
+    margin: 50px 0;
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.contact-container form{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-container form input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+
+}
+
+.contact-container form textarea{
+    padding: 40px;
+    outline: none;
+    border: none;
+    width: 300px;
+    border-radius: 8px;
+
+}
+
+.contact-container form button{
+    border: none;
+    padding: 10px 15px;
+    background-color: black;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+    
+
+}
+
+.contact-container form button:hover{
+    color: black;
+    transform: translateY(-3px);
+}

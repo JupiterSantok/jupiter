@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    width: 100%;
+    background-image: url(./img/retouch_2024091900140833.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-image: fill 0 linear-gradient(#0001,#000);
+
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+nav h1{
+    color: white;
+    font-size: xxx-large;
+    align-items: center;
+    
+}
+
+.nav-link ul {
+    display: flex;
+    list-style-type: none;
+    font-size: x-large;
+
+}
+.main-page{
+    padding: 5%;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: white;
+    margin: 14px;
+
+}
+
+.nav-link li a:hover{
+    color: red;
+}
+
+.main-page h1{
+    color: white;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    bottom: 80%;
+    font-size: xxx-large;
+    
+
+}
+
+.main-page h1:hover{
+    flex-grow: inherit;
+    
+}
+
+.colom-1{
+    color: white;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+}
+
